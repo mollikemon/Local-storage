@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <div>
+    <p id="demo"></p>
+    <!-- <button
+    onclick="console.log('mollike md Emon !'), ">
+    click</button> -->
+
+    <input value="roter" type="text" id="to">
+
+    
+    <button  onclick="repot()">click</button>
+
+   <h1>hi im emon </h1> 
+  </div>
+   <!-- ...................................................... -->
+<input type="text"id="dom">
+
+<input type="text" id="why">
+
+<button id="save">save Date</button>
+<!-- //////////////////////////////////////////////////////////////// -->
+
+
+   <script>
+
+
+
+// ...................................................................
+// ...................................................................
+document.getElementById('save').addEventListener('click',
+function (){
+  const dem=document.getElementById('dom').value;
+ localStorage[document.getElementById('why').value]= dem;
+})
+
+
+
+
+
+
+
+// .......................................................................
+function repot(){
+    // document.getElementById('to').value
+    let x = document.getElementById('to').value
+    console.log(x);
+  document.getElementById('demo').innerText= x
+}
+console.log('mollike md Emon !');
+// ..........................................
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>
